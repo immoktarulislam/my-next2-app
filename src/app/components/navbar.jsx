@@ -5,12 +5,13 @@ const navbar = () => {
     const links = <>
         <li><Link href="/docs/wife">docs</Link></li>
         <li><Link href="/about">about</Link></li>
+        <li><Link href="/blogs">Blogs</Link></li>
         <li><a href="/docs/selfId">selfId</a></li>
         {/* <li><a href="/docs/wife">docs</a></li>
         <li><a href="/about">about</a></li>
         <li><a href="/docs/selfId">selfId</a></li> */}
     </>
-    return ( 
+    return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
                 <div className="dropdown">
